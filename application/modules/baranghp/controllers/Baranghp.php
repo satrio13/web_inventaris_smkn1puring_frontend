@@ -30,7 +30,7 @@ class Baranghp extends CI_Controller
 	{
 		$page = $_POST['start'] / $_POST['length'] + 1;
 		$limit = $_POST['length'];
-		$search = $_POST['search']['value'];
+		$search = urlencode($_POST['search']['value']);
 		if(!empty($search))
 		{
 			$url = api_url()."list-baranghp?page=$page&limit=$limit&search=$search";
