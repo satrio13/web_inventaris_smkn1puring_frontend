@@ -51,7 +51,7 @@
                       </div>
                       <!-- /.card-body -->
                       <div class="card-footer">
-                        <button type='submit' name="preview" value="Preview" class='btn btn-info btn-sm'><i class="fa fa-check"></i> Preview</button>
+                        <button type='submit' name="preview" value="Preview" class='btn btn-primary btn-sm'><i class="fa fa-upload"></i> Import</button>
                         <a href="<?= base_url('backend/baranghp'); ?>" class="btn btn-danger float-right btn-sm"><i class="fa fa-arrow-left"></i> BATAL</a>
                       </div>
                     <?php echo form_close() ?>
